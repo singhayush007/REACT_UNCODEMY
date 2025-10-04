@@ -1,0 +1,48 @@
+.todo-container {
+  width: 300px;
+  margin: 50px 200px;
+  padding: 20px;
+  border-radius: 12px;
+  background: red;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.todo-container h2 {
+  margin-bottom: 15px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.input-section button {
+  padding: 8px 12px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: black;
+  padding: 1px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  text-align: left;
+}

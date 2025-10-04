@@ -1,0 +1,41 @@
+.clients-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+}
+
+.clients-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e2a38;
+}
+
+.clients-underline {
+    width: 60px;
+    height: 4px;
+    background-color: #f1c40f;
+    margin: 10px auto 30px;
+    border-radius: 2px;
+}
+
+.clients-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.clients-logos img {
+    max-height: 100px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+
+
+.clients-logos img:hover {
+    filter: grayscale(100%) brightness(0) sepia(1) hue-rotate(90deg) saturate(500%);
+    transform: scale(1.1);
+}

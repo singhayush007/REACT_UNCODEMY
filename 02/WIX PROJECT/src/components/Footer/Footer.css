@@ -1,0 +1,178 @@
+.footer {
+    background-color: #ffffff;
+    padding: 40px 20px 20px;
+    border-top: 1px solid #ddd;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 1.4rem;
+    color: #1a2a3a;
+    margin-bottom: 10px;
+}
+
+.footer-section h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1a2a3a;
+    margin-top: 20px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+.footer-contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 40px;
+}
+
+.contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #1a2a3a;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: #222;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-top: 6px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+    color: #f1c40f;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn {
+    width: 80px;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+/* Employment */
+.employment-info {
+    flex: 1;
+    min-width: 250px;
+}
+
+.employment-info h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #1a2a3a;
+}
+
+.employment-info p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.quote {
+    margin-top: 40px;
+}
+
+.yellow-line {
+    width: 40px;
+    height: 4px;
+    background-color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.quote h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1a2a3a;
+}
+
+.quote span {
+    color: #000;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    /* circle size */
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    /* border for circle */
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+    background-color: black;
+}
